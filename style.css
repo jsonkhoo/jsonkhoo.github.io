@@ -108,7 +108,7 @@
     line-height: 0.94;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    min-height: 1.9em;
+    min-height: 1.5em;
   }
   .bigname .caret {
     display: inline-block;
