@@ -267,7 +267,6 @@
     border-color: var(--ink-soft);
   }
   .timeline-item:not(:first-child) .timeline-dot::after {
-    content: "✓";
     position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
     font-family: var(--mono); font-size: 8px; font-weight: 700;
