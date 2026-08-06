@@ -46,11 +46,11 @@
 
   /* ---------- top bar ---------- */
 
-  .ownLogo {
-    width: 30px;
-    height: 30px;
-    border-radius: 7px;
-  }
+ .ownLogo {
+  width: clamp(20px, 6vw, 30px);
+  height: clamp(20px, 6vw, 30px);
+  border-radius: 20%; /* scales with the element instead of staying fixed at 7px */
+}
 
   .topbar {
     position: fixed; top: 0; left: 0; right: 0; z-index: 50;
